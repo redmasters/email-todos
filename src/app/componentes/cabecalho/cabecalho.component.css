@@ -1,0 +1,36 @@
+/* header.component.css */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-icon {
+  display: none; /* Esconde o ícone do menu em telas maiores */
+}
+
+.menu {
+  display: block; /* Exibe o menu de texto em telas maiores */
+  text-align: center; /* Centraliza o texto horizontalmente */
+}
+
+/* Estilos para telas menores (menu colapsado) */
+@media screen and (max-width: 767px) {
+  .menu {
+    display: none; /* Esconde o menu de texto em telas menores */
+  }
+
+  .menu-icon {
+    display: block; /* Exibe o ícone do menu em telas menores */
+    margin-left: 16px; /* Ajuste o espaçamento conforme necessário */
+  }
+
+  .left-section {
+    display: flex; /* Permite alinhar o ícone do menu e a logo horizontalmente */
+    align-items: center; /* Alinha os elementos verticalmente */
+  }
+
+  .logo {
+    margin-left: 8px; /* Ajusta o espaçamento entre o ícone do menu e a logo */
+  }
+}

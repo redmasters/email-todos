@@ -1,0 +1,65 @@
+/* Estilos específicos para app-sessao2 */
+@media screen and (max-width: 767px) {
+  :host {
+    display: block;
+    background-color: white; /* Define o fundo como branco */
+    padding: 20px; /* Adiciona um espaçamento interno conforme necessário */
+    /* Outros estilos conforme necessário */
+  }
+
+  .sessao2 h1 {
+    font-family: 'Inter', sans-serif; /* Define a fonte Inter */
+    font-size: 24px; /* Tamanho da fonte */
+    font-weight: bold; /* Texto em negrito */
+    /* Outros estilos para o título */
+    width: 311px; /* Largura da caixa do título */
+    text-align: left; /* Alinhamento à esquerda */
+  }
+
+  .section2 {
+    margin-top: 72px;
+  }
+
+  .sessao2 p {
+    margin-top: 34px;
+    font-size: 14px;
+  }
+
+  .sessao2 {
+    display: block;
+    background-color: white;
+    padding: 20px;
+  }
+
+  /* Estilos para o iframe */
+  .sessao2 .video-container {
+    position: relative;
+    margin-top: 34px; /* Adiciona a margem superior */
+  }
+
+  .sessao2 iframe {
+    display: block;
+    margin: 0 auto; /* Centraliza verticalmente com margem superior de 34px */
+    width: 300px;
+    height: 150px;
+    border-radius: 20px;
+  }
+
+
+  .botao-leiamais-laranja-mobile {
+    display: block;
+    margin: 80px auto 34px; /* Centraliza horizontalmente */
+    /* Outros estilos para o botão */
+  }
+
+  /* Estilos para o botão de acesso */
+  .sessao2 .botao-acesso {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1; /* Coloca o botão na frente do iframe */
+    /* Outros estilos para o botão de acesso */
+  }
+
+
+}

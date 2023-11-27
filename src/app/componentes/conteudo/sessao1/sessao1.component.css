@@ -1,0 +1,82 @@
+/* Adicione no seu arquivo CSS */
+@media screen and (max-width: 767px) {
+  .text-container {
+    flex-direction: column;
+  }
+
+  .first-text,
+  .second-text {
+    order: initial; /* Restaura a ordem padrão */
+  }
+
+  .image-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .inclusao-svg {
+    margin-top: 0; /* Remove o espaçamento entre os SVGs */
+    width: 20%; /* Ajuste o tamanho conforme necessário */
+    order: initial; /* Restaura a ordem padrão */
+  }
+
+  .background-svg {
+    width: 150px;
+    height: auto;
+    margin-left: auto;
+
+  }
+
+  .button-svg {
+    /*position: absolute;*/
+    /*top: 450px; !* Ajuste a posição vertical conforme necessário *!*/
+    /*left: 20px; !* Ajuste a posição horizontal conforme necessário *!*/
+    width: 100px; /* Ajuste a larura conforme necessário */
+    /*height: auto;*/
+    /*z-index: 2; !* Coloca o botão sobre o conteúdo posterior *!*/
+  }
+
+  .section1 {
+    /* Estilos da seção, como margens, padding, etc. */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: linear-gradient(#1C77FF, white);
+    padding-left: 10px;
+    color: #333;
+    position: relative;
+  }
+}
+
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.first-text {
+  order: -1; /* Faz o primeiro texto aparecer primeiro em telas menores */
+}
+
+.second-text {
+  order: 1; /* Faz o segundo texto aparecer depois do primeiro em telas menores */
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Ajuste o espaçamento conforme necessário */
+}
+
+.email-svg,
+.inclusao-svg {
+  width: 80%; /* Ajuste o tamanho conforme necessário */
+  position: relative; /* Permite o posicionamento do SVG */
+  z-index: 1; /* Permite que o SVG fique sobreposto ao fundo */
+  margin-right: 60px;
+}
+
+.inclusao-svg {
+  margin-top: 10px; /* Ajuste o espaçamento entre os SVGs */
+}

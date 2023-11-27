@@ -1,0 +1,96 @@
+@media screen and (max-width: 767px) {
+  :host {
+    display: block;
+    background-color: white; /* Define o fundo como branco */
+    padding: 20px; /* Adiciona um espaçamento interno conforme necessário */
+    /* Outros estilos conforme necessário */
+  }
+
+  .sessao3 h1 {
+    font-family: 'Inter', sans-serif; /* Define a fonte Inter */
+    font-size: 24px; /* Tamanho da fonte */
+    font-weight: bold; /* Texto em negrito */
+    /* Outros estilos para o título */
+    width: 311px; /* Largura da caixa do título */
+    text-align: left; /* Alinhamento à esquerda */
+  }
+
+  .retangulo-azul {
+    /*padding: 26px 50px 26px 50px;*/
+    width: 285px;
+    height: 334px;
+
+    border: 3px solid #1C77FF;
+    border-radius: 20px;
+    margin: 20px auto 24px;
+
+    /* Adiciona a imagem ao fundo do retângulo */
+    background-image: url('src/assets/carteira-digital.svg');
+    background-repeat: no-repeat;
+    background-size: contain; /* Ajusta o tamanho da imagem */
+    background-position: right bottom; /* Alinha a imagem à direita embaixo */
+    padding-right: 50px; /* Adiciona um espaçamento para acomodar a imagem */
+  }
+  .retangulo-azul-cadunico {
+    /*padding: 26px 50px 26px 50px;*/
+    width: 285px;
+    height: 334px;
+
+    border: 3px solid #1C77FF;
+    border-radius: 20px;
+    margin: 20px auto 24px;
+
+    /* Adiciona a imagem ao fundo do retângulo */
+    background-image: url('src/assets/cadunico.svg');
+    background-repeat: no-repeat;
+    background-size: contain; /* Ajusta o tamanho da imagem */
+    background-position: right bottom; /* Alinha a imagem à direita embaixo */
+    padding-right: 50px; /* Adiciona um espaçamento para acomodar a imagem */
+  }
+
+  h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  p {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 106px;
+  }
+
+  .retangulo-amarelo {
+    width: 285px;
+    height: 158px;
+    border: 3px solid #FFD445;
+    border-radius: 20px;
+    margin: 0 auto 20px;
+
+    background-image: url('src/assets/bpc.svg');
+    background-repeat: no-repeat;
+    background-size: 122px 76px;
+    background-position: right bottom;
+    padding-right: 50px;
+  }
+
+  .retangulo-amarelo-bolsa {
+    width: 285px;
+    height: 158px;
+    border: 3px solid #FFD445;
+    border-radius: 20px;
+    margin: 0 auto 20px;
+
+    background-image: url('src/assets/bolsa-familia.svg');
+    background-repeat: no-repeat;
+    background-size: 174px 85px;
+    background-position: right bottom;
+    padding-right: 50px;
+  }
+
+}

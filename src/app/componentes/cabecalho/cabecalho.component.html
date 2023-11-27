@@ -1,0 +1,16 @@
+<!-- header.component.html -->
+<nz-header class="header">
+  <div class="left-section">
+    <button nz-button nzType="link" class="menu-icon" (click)="toggleCollapsed()">
+      <i nz-icon [nzType]="isCollapsed ? 'menu-unfold' : 'menu-fold'"></i>
+    </button>
+    <div class="logo">
+      <img src="assets/logo-email.svg"/>
+    </div>
+  </div>
+  <ul *ngIf="!isCollapsed" nz-menu nzMode="horizontal" nzTheme="light" class="menu">
+    <li nz-menu-item routerLink="/home">Home</li>
+    <li nz-menu-item routerLink="/about">Sobre</li>
+    <!-- Adicione mais itens de menu conforme necessário -->
+  </ul>
+</nz-header>
