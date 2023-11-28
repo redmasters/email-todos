@@ -1,0 +1,96 @@
+@media screen and (max-width: 767px) {
+  :host {
+    display: block;
+    background-color: white; /* Define o fundo como branco */
+    padding: 20px; /* Adiciona um espaçamento interno conforme necessário */
+    /* Outros estilos conforme necessário */
+  }
+
+  .sessao4 h1 {
+    font-family: 'Inter', sans-serif; /* Define a fonte Inter */
+    font-size: 24px; /* Tamanho da fonte */
+    font-weight: bold; /* Texto em negrito */
+    /* Outros estilos para o título */
+    width: 314px; /* Largura da caixa do título */
+    text-align: center; /* Alinhamento à esquerda */
+    margin: 0 auto;
+  }
+
+  .retangulo-vertical-laranja {
+    width: 285px;
+    height: 334px;
+    border-radius: 20px;
+    background-color: rgba(224, 75, 21, 0.3); /* Laranja com 30% de opacidade */
+    margin: 24px auto 24px;
+    padding: 2px;
+  }
+
+  .retangulo-vertical-laranja h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .retangulo-vertical-laranja p {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .retangulo-vertical-laranja li {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .saiba-mais-laranja {
+    color: white;
+    width: 241px;
+    height: 32px;
+    background-color: #E04B15;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 20px;
+    border: none;
+    border-radius: 20px;
+  }
+
+  .retangulo-vertical-amarelo {
+    width: 285px;
+    height: 334px;
+    border-radius: 20px;
+    background-color: rgba(255, 193, 7, 0.3); /* Amarelo com 30% de opacidade */
+    margin: 24px auto 24px;
+    padding: 2px;
+  }
+
+  .retangulo-vertical-azul {
+    width: 285px;
+    height: 334px;
+    border-radius: 20px;
+    background-color: rgba(28, 119, 255, 0.3); /* Azul com 30% de opacidade */
+    margin: 24px auto 24px;
+    padding: 2px;
+  }
+
+  .retangulo-vertical-azul-full {
+    width: 285px;
+    height: 334px;
+    border-radius: 20px;
+    background-color: rgba(28, 119, 255);
+    margin: 24px auto 24px;
+    padding: 2px;
+  }
+  .retangulo-vertical-azul-full h1 {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+}
