@@ -39,6 +39,7 @@
     margin-left: 20px;
     margin-right: 20px;
   }
+
   .retangulo-vertical-laranja li {
     font-family: 'Inter', sans-serif;
     font-size: 12px;
@@ -68,6 +69,42 @@
     padding: 2px;
   }
 
+
+  .retangulo-vertical-amarelo h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .retangulo-vertical-amarelo p {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .retangulo-vertical-amarelo li {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .saiba-mais-amarelo {
+    color: white;
+    width: 241px;
+    height: 32px;
+    background-color: #FFD445;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 20px;
+    border: none;
+    border-radius: 20px;
+  }
+
   .retangulo-vertical-azul {
     width: 285px;
     height: 334px;
@@ -77,20 +114,108 @@
     padding: 2px;
   }
 
+  .retangulo-vertical-azul h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .retangulo-vertical-azul p {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .retangulo-vertical-azul li {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .saiba-mais-azul {
+    color: white;
+    width: 241px;
+    height: 32px;
+    background-color: #1C77FF;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 20px;
+    border: none;
+    border-radius: 20px;
+  }
+
   .retangulo-vertical-azul-full {
     width: 285px;
     height: 334px;
     border-radius: 20px;
     background-color: rgba(28, 119, 255);
-    margin: 24px auto 24px;
-    padding: 2px;
+    margin: 24px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
+
   .retangulo-vertical-azul-full h1 {
+    font-size: 24px;
+    text-align: center;
     color: white;
-    font-family: 'Inter', sans-serif;
-    font-weight: bold;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin: 0;
+    padding: 20px;
   }
+
+  .retangulo-vertical-azul-full input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+    font-size: 10px;
+    border-radius: 20px;
+    border: none;
+    box-sizing: border-box;
+  }
+
+  .botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .botao-amarelo {
+    background-color: #FFD445;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .botao-whatsapp {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 80%;
+    border: none;
+    cursor: pointer;
+  }
+
+  .botao-amarelo,
+  .botao-whatsapp {
+    margin-left: 16px;
+  }
+
+  .botao-whatsapp {
+    margin-right: 10px;
+  }
+
 
 }
