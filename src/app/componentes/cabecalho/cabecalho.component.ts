@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./cabecalho.component.css']
 })
 export class CabecalhoComponent {
-  isCollapsed = true;
+  isCollapsed = false;
 
   toggleCollapsed(): void {
     this.isCollapsed = !this.isCollapsed;

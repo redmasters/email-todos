@@ -3,6 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: white;
 }
 
 .menu-icon {
@@ -12,10 +13,20 @@
 .menu {
   display: block; /* Exibe o menu de texto em telas maiores */
   text-align: center; /* Centraliza o texto horizontalmente */
+  font-size: 10px;
+  font-family: 'Inter', sans-serif;
+}
+
+.botao-criar-email-laranja-cabecalho {
+  display: none; /* Esconde o botão em telas menores */
 }
 
 /* Estilos para telas menores (menu colapsado) */
 @media screen and (max-width: 767px) {
+
+.criar-email-laranja-cabecalho {
+  display: none; /* Esconde o botão em telas menores */
+}
   .menu {
     display: none; /* Esconde o menu de texto em telas menores */
   }
@@ -34,3 +45,52 @@
     margin-left: 8px; /* Ajusta o espaçamento entre o ícone do menu e a logo */
   }
 }
+
+@media screen and (min-width: 768px) {
+
+  .criar-email-laranja-cabecalho {
+    display: block; /* Exibe o botão em telas maiores */
+    margin-left: auto;
+  }
+
+  .criar-email-laranja-cabecalho {
+    display: flex;
+    width: 82px;
+    height: 32px;
+    padding-left: 14px;
+    align-items: center;
+    background-color: #E04B15;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+  }
+
+  .left-section {
+    display: flex;
+    align-items: center;
+  }
+
+  .menu {
+    margin-left: auto;
+  }
+
+  .logo {
+    margin-right: 16px;
+  }
+
+  .menu li {
+    display: inline;
+    margin-left: 16px;
+  }
+
+}
+

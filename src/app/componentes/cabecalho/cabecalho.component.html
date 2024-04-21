@@ -1,16 +1,19 @@
-<!-- header.component.html -->
 <nz-header class="header">
   <div class="left-section">
     <button nz-button nzType="link" class="menu-icon" (click)="toggleCollapsed()">
-      <i nz-icon [nzType]="isCollapsed ? 'menu-unfold' : 'menu-fold'"></i>
+      <i nz-icon [nzType]="!isCollapsed ? 'menu-fold' : 'menu-unfold'"></i>
     </button>
     <div class="logo">
       <img src="assets/logo-email.svg"/>
     </div>
+
   </div>
   <ul *ngIf="!isCollapsed" nz-menu nzMode="horizontal" nzTheme="light" class="menu">
-    <li nz-menu-item routerLink="/home">Home</li>
-    <li nz-menu-item routerLink="/about">Sobre</li>
-    <!-- Adicione mais itens de menu conforme necessário -->
+    <li nz-menu-item routerLink="/home">Aprenda criar e-mail</li>
+    <li nz-menu-item routerLink="/historia">Historia do e-mail</li>
+    <li nz-menu-item routerLink="/inclusao">E-mail & Inclusao Social </li>
+    <li nz-menu-item routerLink="/servicos">Lista de Servicos Sociais</li>
+    <li>Teste</li>
   </ul>
+  <button type="button" name="button" class="criar-email-laranja-cabecalho">Criar e-mail</button>
 </nz-header>
