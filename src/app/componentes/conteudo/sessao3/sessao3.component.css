@@ -9,12 +9,12 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
-    max-width: 1200px;
     padding: 0 20px;
   }
 
   .retangulo-container {
-    flex-basis: calc(50% - 20px); /* Define a largura dos retângulos */
+    flex-basis: 100%;
+    margin-top: 20px;
   }
 
   h1 {
@@ -45,7 +45,6 @@
     background-position: right bottom;
     padding-right: 100px;
     box-sizing: border-box; /* Inclui padding e border no cálculo da largura */
-    width: calc(50% - 20px); /* Define a largura dos retângulos */
   }
 
   .retangulo-azul {
