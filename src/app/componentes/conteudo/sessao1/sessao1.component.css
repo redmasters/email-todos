@@ -1,5 +1,67 @@
-/* Adicione no seu arquivo CSS */
+
+@media screen and (min-width: 767px) {
+
+  .background-svg,
+  .email-svg,
+  .inclusao-svg {
+    display: none;
+  }
+
+
+  .background-desktop-svg {
+    height: auto;
+    margin-left: auto;
+  }
+
+  .email-desktop-svg { /* ajuste ao centro */
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    z-index: 2; /* Permite que o SVG fique sobreposto ao fundo */
+
+  }
+
+
+  .inclusao-desktop-svg { /* ajuste ao centro */
+    position: absolute;
+    top: 45%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    z-index: 2; /* Permite que o SVG fique sobreposto ao fundo */
+
+  }
+
+  .section1 {
+    /* Estilos da seção, como margens, padding, etc. */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: linear-gradient(#1C77FF, white);
+    padding-left: 10px;
+    color: #333;
+    position: relative;
+  }
+
+  .button-svg {
+    width: 117px; /* Ajuste a larura conforme necessário */
+    height: auto;
+    justify-content: center;
+    position: absolute;
+    top: 76%;
+    left: 50%;
+  }
+
+
+}
+
 @media screen and (max-width: 767px) {
+  .background-desktop-svg,
+  .email-desktop-svg,
+  .inclusao-desktop-svg {
+    display: none;
+  }
+
   .text-container {
     flex-direction: column;
   }
@@ -28,12 +90,7 @@
   }
 
   .button-svg {
-    /*position: absolute;*/
-    /*top: 450px; !* Ajuste a posição vertical conforme necessário *!*/
-    /*left: 20px; !* Ajuste a posição horizontal conforme necessário *!*/
     width: 100px; /* Ajuste a larura conforme necessário */
-    /*height: auto;*/
-    /*z-index: 2; !* Coloca o botão sobre o conteúdo posterior *!*/
   }
 
   .section1 {
