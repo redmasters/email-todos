@@ -18,6 +18,8 @@
   }
 
   h1 {
+    font-weight: bold;
+    font-size: 36px;
     margin-top: 72px; /* Remove a margem superior padrão */
   }
 

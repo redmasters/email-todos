@@ -4,16 +4,19 @@
       <i nz-icon [nzType]="!isCollapsed ? 'menu-fold' : 'menu-unfold'"></i>
     </button>
     <div class="logo">
-      <img src="assets/logo-email.svg"/>
+      <a href=""><img src="assets/logo-email.svg"/></a>
     </div>
 
   </div>
   <ul *ngIf="!isCollapsed" nz-menu nzMode="horizontal" nzTheme="light" class="menu">
-    <li nz-menu-item routerLink="/home">Aprenda criar e-mail</li>
+    <li nz-menu-item routerLink="/criar-email">Aprenda criar e-mail</li>
     <li nz-menu-item routerLink="/historia">Historia do e-mail</li>
     <li nz-menu-item routerLink="/inclusao">E-mail & Inclusao Social </li>
     <li nz-menu-item routerLink="/servicos">Lista de Servicos Sociais</li>
-    <li>Teste</li>
   </ul>
-  <button type="button" name="button" class="criar-email-laranja-cabecalho">Criar e-mail</button>
+  <button
+    type="button"
+    name="button"
+    class="criar-email-laranja-cabecalho"
+    [routerLink]="['/criar-email']">Criar e-mail</button>
 </nz-header>

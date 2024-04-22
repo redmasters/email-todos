@@ -1,0 +1,40 @@
+/* Estilos comuns para ambas as telas */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.email-info {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.email-info p {
+  margin: 10px 0;
+}
+
+/* Estilos para telas desktop */
+@media screen and (min-width: 768px) {
+  .email-info {
+    width: 50%;
+    float: left;
+    margin-right: 20px;
+  }
+}
+
+/* Estilos para telas móveis */
+@media screen and (max-width: 767px) {
+  .email-info {
+    width: 100%;
+  }
+}
+

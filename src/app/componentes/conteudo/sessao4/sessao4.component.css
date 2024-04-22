@@ -1,3 +1,171 @@
+.sessao4 {
+  background-color: white;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .sessao4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 72px; /* Distância do topo */
+  }
+
+  h1 {
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center; /* Alinha o título ao centro */
+  }
+
+  .retangulo-container {
+    display: flex;
+    justify-content: space-between; /* Distribui os retângulos igualmente */
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .retangulo-vertical-laranja,
+  .retangulo-vertical-amarelo,
+  .retangulo-vertical-azul {
+    width: calc(33.33% - 20px); /* Distribui igualmente em 3 colunas com margem entre eles */
+    height: 334px;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+
+  .retangulo-vertical-laranja h2,
+  .retangulo-vertical-amarelo h2,
+  .retangulo-vertical-azul h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .retangulo-vertical-laranja p,
+  .retangulo-vertical-amarelo p,
+  .retangulo-vertical-azul p {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .retangulo-vertical-laranja ul,
+  .retangulo-vertical-amarelo ul,
+  .retangulo-vertical-azul ul {
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .retangulo-vertical-laranja button,
+  .retangulo-vertical-amarelo button,
+  .retangulo-vertical-azul button {
+    width: 100%;
+    height: 32px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  .retangulo-vertical-laranja {
+    background-color: rgba(224, 75, 21, 0.3); /* Laranja com 30% de opacidade */
+  }
+
+  .retangulo-vertical-laranja button {
+    background-color: #E04B15;
+    color: white;
+  }
+
+  .retangulo-vertical-amarelo {
+    background-color: rgba(255, 193, 7, 0.3); /* Amarelo com 30% de opacidade */
+  }
+
+  .retangulo-vertical-amarelo button {
+    background-color: #FFD445;
+    color: black;
+  }
+
+  .retangulo-vertical-azul {
+    background-color: rgba(28, 119, 255, 0.3); /* Azul com 30% de opacidade */
+  }
+
+  .retangulo-vertical-azul button {
+    background-color: #1C77FF;
+    color: white;
+  }
+
+  .retangulo-vertical-azul-full {
+    background-color: #1C77FF;
+  }
+
+
+  .retangulo-vertical-azul-full {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: center;
+  }
+
+  .retangulo-vertical-azul-full h1 {
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 20px;
+  }
+
+  .retangulo-vertical-azul-full input[type="email"] {
+    width: 100%;
+    max-width: 500px; /* Limita a largura do input */
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 10px;
+    border-radius: 20px;
+    border: none;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+
+  .botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .botao-amarelo {
+    background-color: #FFD445;
+    border: none;
+    border-radius: 20px;
+    color: black;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+
+  .botao-whatsapp {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 80%;
+  }
+}
+
+
+
+
 @media screen and (max-width: 767px) {
   :host {
     display: block;

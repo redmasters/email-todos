@@ -20,6 +20,10 @@ import { Sessao1Component } from './componentes/conteudo/sessao1/sessao1.compone
 import { Sessao2Component } from './componentes/conteudo/sessao2/sessao2.component';
 import { Sessao3Component } from './componentes/conteudo/sessao3/sessao3.component';
 import { Sessao4Component } from './componentes/conteudo/sessao4/sessao4.component';
+import { RodapeComponent } from './componentes/rodape/rodape.component';
+import { CriarEmailComponent } from './componentes/conteudo/criar-email/criar-email.component';
+import { HomeComponent } from './componentes/home/home.component';
+import { EmailCriadoComponent } from './componentes/conteudo/email-criado/email-criado.component';
 
 registerLocaleData(pt);
 
@@ -31,7 +35,11 @@ registerLocaleData(pt);
     Sessao1Component,
     Sessao2Component,
     Sessao3Component,
-    Sessao4Component
+    Sessao4Component,
+    RodapeComponent,
+    CriarEmailComponent,
+    HomeComponent,
+    EmailCriadoComponent
   ],
   imports: [
     BrowserModule,

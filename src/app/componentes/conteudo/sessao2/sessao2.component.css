@@ -16,6 +16,8 @@
   }
 
   .sessao2 h1 {
+    font-weight: bold;
+    font-size: 36px;
     margin-top: 0; /* Remove a margem superior do título */
   }
 
