@@ -1,3 +1,84 @@
+.sessao3 {
+  background-color: white; /* Define o fundo como branco */
+}
+
+@media screen and (min-width: 768px) {
+  .sessao3 {
+    display: flex;
+    flex-direction: row; /* Altera a direção para linha */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    padding: 0 20px;
+  }
+
+  .retangulo-container {
+    flex-basis: calc(50% - 20px); /* Define a largura dos retângulos */
+  }
+
+  h1 {
+    margin-top: 72px; /* Remove a margem superior padrão */
+  }
+
+  .retangulo-azul,
+  .retangulo-azul-cadunico {
+    margin-top: 20px; /* Adiciona uma margem superior de 20px para alinhar abaixo do título */
+    padding: 20px; /* Adiciona um espaçamento interno */
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right bottom;
+    padding-right: 100px;
+    box-sizing: border-box; /* Inclui padding e border no cálculo da largura */
+    width: 100%; /* Ocupa toda a largura disponível */
+  }
+
+  .retangulo-amarelo,
+  .retangulo-amarelo-bolsa {
+    margin-top: 20px; /* Adiciona uma margem superior */
+    padding: 20px; /* Adiciona um espaçamento interno */
+    border: 3px solid #FFD445;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right bottom;
+    padding-right: 100px;
+    box-sizing: border-box; /* Inclui padding e border no cálculo da largura */
+    width: calc(50% - 20px); /* Define a largura dos retângulos */
+  }
+
+  .retangulo-azul {
+    border: 3px solid #1C77FF;
+    background-image: url('src/assets/carteira-digital.svg');
+  }
+
+  .retangulo-amarelo {
+    border: 3px solid #FFD445;
+    background-image: url('src/assets/bpc.svg');
+  }
+
+  .retangulo-amarelo-bolsa {
+    border: 3px solid #FFD445;
+    background-image: url('src/assets/bolsa-familia.svg');
+  }
+
+  .retangulo-azul-cadunico {
+    border: 3px solid #1C77FF;
+    background-image: url('src/assets/cadunico.svg');
+  }
+
+
+  h2,
+  p {
+    font-family: 'Inter', sans-serif;
+    margin-top: 10px; /* Adiciona um espaçamento entre os elementos */
+  }
+}
+
+
+
+
 @media screen and (max-width: 767px) {
   :host {
     display: block;

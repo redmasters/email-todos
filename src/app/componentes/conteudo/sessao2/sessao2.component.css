@@ -1,4 +1,51 @@
-/* Estilos específicos para app-sessao2 */
+
+.sessao2 {
+  background-color: white;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .sessao2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .sessao2 > div {
+    flex-basis: 80%;
+  }
+
+  .sessao2 h1 {
+    margin-top: 0; /* Remove a margem superior do título */
+  }
+
+  .sessao2 img.botao-leiamais-laranja-mobile {
+    display: inline-block; /* Torna o botão Leia Mais um elemento em linha */
+    margin-top: 10px; /* Adiciona uma margem superior ao botão Leia Mais */
+  }
+
+  .video-container {
+    margin-top: 10px; /* Adiciona uma margem superior para separar do conteúdo acima */
+    position: relative;
+    padding-left: 50px;
+  }
+
+  .video-container iframe {
+    width: 100%; /* Define a largura do iframe como 100% da largura do contêiner */
+    border-radius: 20px; /* Adiciona bordas arredondadas ao iframe */
+  }
+
+  .sessao2 .botao-acesso {
+    position: absolute; /* Define a posição absoluta para o botão de acesso */
+    left: 8%;
+    bottom: 50%;
+    transform: translateX(-50%);
+    z-index: 1; /* Coloca o botão na frente do iframe */
+  }
+
+
+}
+
 @media screen and (max-width: 767px) {
   :host {
     display: block;
